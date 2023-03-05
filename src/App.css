@@ -1,0 +1,38 @@
+body {
+    background-color: #93BFCF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    color: #EEE9DA;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h2, p {
+    color: #6096B4;
+    text-shadow: 1px 1px 1px #000;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 3px;
+    border: none;
+    width: 100px;
+    font-size: 15px;
+    background-color: #EEE9DA;
+    color: #6096B4;
+    text-transform: uppercase;
+}
+
+.delete {
+    text-shadow: 1px 1px 1px palevioletred;
+}
